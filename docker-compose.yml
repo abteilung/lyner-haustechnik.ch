@@ -15,14 +15,12 @@ services:
         image: redis:6
 
     directus:
-        build:
-            context: .
-            dockerfile: Dockerfile
         image: directus/directus:10.9
         ports:
             - 8055:8055
         volumes:
             - ./my_uploads:/directus/uploads
+            - ./my_extensions:/directus/extensions
         depends_on:
             - cache
             - database
@@ -59,3 +57,9 @@ volumes:
             type: none
             o: bind
             device: ./data/uploads
+    my_extensions:
+        driver: local
+        driver_opts:
+            type: none
+            o: bind
+            device: ./data/extensions
