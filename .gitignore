@@ -2,7 +2,7 @@
 .DS_Store
 
 # Data
-data/
+data/*
 
 # Dependencies
 node_modules/
