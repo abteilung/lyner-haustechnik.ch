@@ -1,6 +1,9 @@
 # User preferences
 .DS_Store
 
+# Data
+data/
+
 # Dependencies
 node_modules/
 
