@@ -22,8 +22,8 @@ services:
         ports:
             - 8055:8055
         volumes:
-            - my_uploads:/directus/uploads
-            - my_extensions:/directus/extensions
+            - ./my_uploads:/directus/uploads
+            - ./my_extensions:/directus/extensions
         depends_on:
             - cache
             - database
@@ -44,6 +44,7 @@ services:
 
             ADMIN_EMAIL: 'admin@example.com'
             ADMIN_PASSWORD: 'd1r3ctu5'
+            CORS_ENABLED: true
 
             # Make sure to set this in production
             # (see https://docs.directus.io/self-hosted/config-options#general)
