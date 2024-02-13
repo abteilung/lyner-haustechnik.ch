@@ -3,6 +3,7 @@
 
 # Data
 /data/*
+data/*
 /uploads/*
 
 # Dependencies
