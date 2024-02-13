@@ -25,6 +25,15 @@ services:
             - ./uploads:/directus/uploads
             # If you want to load extensions from the host
             - ./extensions:/directus/extensions
+            - ./extensions/displays:/directus/extensions/displays
+            - ./extensions/endpoints:/directus/extensions/endpoints
+            - ./extensions/hooks:/directus/extensions/hooks
+            - ./extensions/interfaces:/directus/extensions/interfaces
+            - ./extensions/layouts:/directus/extensions/layouts
+            - ./extensions/modules:/directus/extensions/modules
+            - ./extensions/operations:/directus/extensions/operations
+            - ./extensions/panels:/directus/extensions/panels
+            - ./extensions/themes:/directus/extensions/themes
         depends_on:
             - cache
             - database
