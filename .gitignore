@@ -2,7 +2,8 @@
 .DS_Store
 
 # Data
-data/*
+/data/*
+/uploads/*
 
 # Dependencies
 node_modules/
