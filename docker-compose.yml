@@ -22,18 +22,8 @@ services:
         ports:
             - 8055:8055
         volumes:
-            - ./uploads:/directus/uploads
-            # If you want to load extensions from the host
-            - ./extensions:/directus/extensions
-            - ./extensions/displays:/directus/extensions/displays
-            - ./extensions/endpoints:/directus/extensions/endpoints
-            - ./extensions/hooks:/directus/extensions/hooks
-            - ./extensions/interfaces:/directus/extensions/interfaces
-            - ./extensions/layouts:/directus/extensions/layouts
-            - ./extensions/modules:/directus/extensions/modules
-            - ./extensions/operations:/directus/extensions/operations
-            - ./extensions/panels:/directus/extensions/panels
-            - ./extensions/themes:/directus/extensions/themes
+            - my_uploads:/directus/uploads
+            - my_extensions:/directus/extensions
         depends_on:
             - cache
             - database
@@ -62,3 +52,16 @@ services:
         # Environment variables can also be defined in a file (for example `.env`):
         # env_file:
         #	  - .env
+volumes:
+    my_uploads:
+        driver: local
+        driver_opts:
+            type: none
+            o: bind
+            device: ./data/uploads
+    my_extensions:
+        driver: local
+        driver_opts:
+            type: none
+            o: bind
+            device: ./data/extensions
