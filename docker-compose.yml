@@ -15,6 +15,9 @@ services:
         image: redis:6
 
     directus:
+        build:
+            context: .
+            dockerfile: Dockerfile
         image: directus/directus:10.9
         ports:
             - 8055:8055
@@ -41,7 +44,6 @@ services:
 
             ADMIN_EMAIL: 'admin@example.com'
             ADMIN_PASSWORD: 'd1r3ctu5'
-            CORS_ENABLED: 'true'
 
             # Make sure to set this in production
             # (see https://docs.directus.io/self-hosted/config-options#general)
