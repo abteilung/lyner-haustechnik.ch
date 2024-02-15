@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6DA4CE90-1533-4977-A6A1-4B15144934E4</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="366" height="354"></rect>
+        <filter x="-23.2%" y="-18.4%" width="146.4%" height="148.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.276333%" id="linearGradient-3">
+            <stop stop-color="#7F1418" offset="0%"></stop>
+            <stop stop-color="#E2001A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Service" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service-Heizung" transform="translate(-567.000000, -1294.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4430"></rect>
+            <g id="Card/Service-Copy" transform="translate(537.000000, 1264.000000)">
+                <g id="Rectangle-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Icon-Sanitaer-Tab-2" transform="translate(31.000000, 32.000000)">
+                    <g id="Page-1" transform="translate(6.000000, 1.000000)">
+                        <path d="M22.8297712,37.4929429 C30.1574353,30.1478829 49,27 49,27 C49,27 46.5574453,45.1877677 38.5319085,53.2323572 C29.9829671,61.8015939 19.863812,56.2041085 19.863812,56.2041085 C19.863812,56.2041085 14.1063616,46.237062 22.8297712,37.4929429 Z" id="Stroke-1" fill="url(#linearGradient-3)"></path>
+                        <line x1="30" y1="47" x2="15" y2="62" id="Stroke-3" stroke="#7F1418" stroke-width="2" stroke-linecap="square"></line>
+                        <polygon id="Stroke-5" stroke="#303030" stroke-width="2" stroke-linecap="square" points="32 0 0 24.8275862 0 72 64 72 64 24.8275862"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A4F3CA7E-E556-4AF9-AFB8-E7166867D903</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="366" height="381"></rect>
+        <filter x="-23.2%" y="-17.1%" width="146.4%" height="144.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.276333%" id="linearGradient-3">
+            <stop stop-color="#E2001A" offset="0%"></stop>
+            <stop stop-color="#7F1418" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Service" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service-Heizung" transform="translate(-983.000000, -1294.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4430"></rect>
+            <g id="Card/Service-Copy-2" transform="translate(953.000000, 1264.000000)">
+                <g id="Rectangle-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Icon-Sanitaer-Tab-2" transform="translate(31.000000, 32.000000)">
+                    <g id="Page-1" transform="translate(7.000000, 1.000000)">
+                        <path d="M18,35 L6,35 L6,53.5714286 C6,57.6744762 9.2232,61 13.2,61 L18,61 L18,35 Z" id="Stroke-1" fill="url(#linearGradient-3)"></path>
+                        <path d="M56,35 L44,35 L44,61 L48.8,61 C52.7768,61 56,57.6744762 56,53.5714286 L56,35 Z" id="Stroke-3" fill="url(#linearGradient-3)"></path>
+                        <path d="M44.1153846,72 L45.3076923,72 C54.5266154,72 62,64.4784 62,55.2 L62,31.2 C62,13.9692 48.1203462,0 31,0 C13.8796538,0 0,13.9692 0,31.2 L0,43.2" id="Stroke-5" stroke="#303030" stroke-width="2" stroke-linecap="square"></path>
+                        <line x1="38" y1="72" x2="31" y2="72" id="Stroke-7" stroke="#303030" stroke-width="2" stroke-linecap="square"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

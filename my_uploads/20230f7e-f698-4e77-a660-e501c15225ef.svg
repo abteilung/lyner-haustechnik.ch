@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>56FF2A0B-FC1B-4C2E-8863-D6AA6773F5B9</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="366" height="327"></rect>
+        <filter x="-23.2%" y="-19.9%" width="146.4%" height="152.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.276333%" id="linearGradient-3">
+            <stop stop-color="#0076B0" offset="0%"></stop>
+            <stop stop-color="#004780" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Service" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service-Sanitaer" transform="translate(-151.000000, -1294.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4813"></rect>
+            <g id="Card/Service" transform="translate(121.000000, 1264.000000)">
+                <g id="Rectangle-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Icon-Sanitaer-Tab-2" transform="translate(31.000000, 32.000000)">
+                    <g id="Page-1" transform="translate(1.000000, 0.000000)">
+                        <path d="M13.5,55 C16.536,55 19,57.464 19,60.5 C19,63.536 16.536,66 13.5,66 C10.464,66 8,63.536 8,60.5 C8,57.464 10.464,55 13.5,55 Z" id="Stroke-1" fill="url(#linearGradient-3)"></path>
+                        <path d="M73.173718,13.0307563 L62.959794,23.2304274 L50.8544027,11.1419283 L61.0683267,0.942257285 C58.1693376,0.0608042301 55.016892,-0.316961365 51.6109897,0.31264796 C44.171218,1.69778847 38.1185223,7.74203799 36.7314462,15.171428 C36.1009571,18.4453965 36.3531527,21.5934431 37.2358375,24.489646 L3.94601143,53.451675 C-1.09790161,57.9848621 -1.35009727,65.7920177 3.44162012,70.5770486 C8.23333752,75.3620795 16.0514027,75.1102357 20.4648266,69.9474393 L49.4673266,36.7040669 C52.3675767,37.58552 55.3939245,37.8373637 58.672468,37.3336762 C66.1122397,35.9485357 72.1649353,29.9042862 73.5520114,22.4748962 C74.3085984,19.2009277 74.0564027,15.9269592 73.173718,13.0307563 Z" id="Stroke-3" stroke="#303030" stroke-width="2" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
