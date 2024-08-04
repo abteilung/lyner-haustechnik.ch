@@ -29,7 +29,7 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        image: directus/directus:10.10.4
+        image: directus/directus:10.13.1
         ports:
             - 8055:8055
         volumes:
